@@ -1,0 +1,52 @@
+body{
+  background-color: #282c34;
+}
+.App{
+text-align: center;
+max-width: 728px;
+margin: 0 auto;
+}
+.App header{
+  background-color: #181717;
+  height: 10vh;
+  min-height: 50px;
+  color: white;
+  position: fixed;
+  width: 100%;
+  max-width: 728px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 99;
+  padding:10px ;
+  box-sizing: border-box;
+
+}
+main::-webkit-scrollbar-thumb{
+  background: #6649b8;
+}
+form{
+  height: 10vh;
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(24, 23,23);
+  width: 100%;
+  max-width: 728px;
+  display: flex;
+  font-size: 1.5rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
